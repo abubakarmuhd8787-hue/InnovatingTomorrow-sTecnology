@@ -1,9 +1,9 @@
-{
-  "name": "business-website",
+
+  {"name": "business-website",
   "version": "1.0.0",
   "description": "A complete business website with frontend and backend",
   "main": "server.js",
-  "scripts": {
+  "=scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },

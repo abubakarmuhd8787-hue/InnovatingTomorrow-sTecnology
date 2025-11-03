@@ -38,10 +38,10 @@ header {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.navbar {
+.navmenu {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
@@ -382,7 +382,7 @@ h2 {
 }
 
 .testimonial::before {
-    content: """;
+    content: "";
     position: absolute;
     top: -20px;
     left: 20px;
@@ -573,4 +573,5 @@ footer {
 .newsletter-form button {
     background: var(--primary);
     color: white;
+
     
